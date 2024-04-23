@@ -2,7 +2,7 @@ body {
     width: 100%;
     height: 100vh;
     margin: 8;
-    background-image: url(background.jpg/vecteezy_empty-wooden-table-with-mountains-in-the-background-ai_32840839.jpeg);
+    background-image: url(background.jpg/my\ new\ background_1600x1067.png);
     background-color: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -12,12 +12,14 @@ body {
     font-family: sans-serif;
     font-weight: bold;
     margin: auto;
-    font-size: 16px;
+    font-size: 18px;
     display: block;
 }
 h1 {
     margin: 1em auto;
     text-align: center;
+    background-color: antiquewhite;
+    width: fit-content;
   }
   form {
     width: 60vw;
@@ -58,4 +60,8 @@ h1 {
     width: unset;
     margin: 0 0.5em 0 0;
     vertical-align: middle;
+  }
+  .item{
+    background-color: rgb(218, 124, 176);
+    opacity: .9;
   }
