@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upskill week 4</title>
+    <link rel="stylesheet" href="./form.css" />
+</head>
+<body>
+    <h1>Upskilll Survey Form</h1>
+    <form action="example.com/path" method="post">
+<fieldset>
+    <label for="name">Name:  <input type="text" id="name" placeholder="your name" class="text"/></label>
+    <label for="email">Email:  <input type="email" id="email" placeholder="Enter your Email" class="text" /></label>
+    <label for="Age">Age:  <input type="number" id="Age" placeholder="Enter your age" class="text"/></label>
+    <label for="phone">phone:  <input type="number" id="phone" placeholder="+234**********" class="text"/></label>
+    <label for="desription">What best describes you?
+        <select id="description" name="description" class="select">
+          <option value="">(select one)</option>
+          <option value="1">Student</option>
+          <option value="2">Graduate</option>
+          <option value="3">Employed</option>
+          <option value="4">Self Employed</option>
+          <option value="5">Skilled</option>
+          <option value="6">Entrepreneur</option>
+          </select>
+          </label>
+</fieldset>
+<fieldset>
+    <legend>Would you recommend Upskill to a Friend?</legend>
+    <Label for="yes"><input type="radio" id="yes" class="inline" checked  />Yes</Label>
+    <Label for="no"><input type="radio" id="no" class="inline" />No</Label>
+    <Label for="maybe"><input type="radio" id="maybe" class="inline" />Maybe</Label>
+</fieldset>
+<fieldset>
+    <legend>Language and frameworks known</legend>
+    <label for="c"><input type="checkbox" id="c" />C</label>
+    <label for="c++"><input type="checkbox" id="c++"/>C++</label>
+    <label for="c#"><input type="checkbox" id="c#"/>C#</label>
+    <label for="java"><input type="checkbox" id="java"/>Java</label>
+    <label for="python"><input type="checkbox" id="python"/>Python</labe>
+    <label for="java"><input type="checkbox" id="java"/>Javascript</label>
+    <label for="react"><input type="checkbox" id="react"/>React</label>
+    <label for="angular"><input type="checkbox" id="angular"/>Angular</label>
+    <label for="django"><input type="checkbox" id="django"/>Django</label>
+    <label for="spring"><input type="checkbox" id="spring"/>Spring</label>
+</fieldset>
+        <fieldset>
+            <label for="comment">Any comments or Suggestions?
+                <textarea class="select" id="comment" name="comment" rows="3" cols="30" placeholder="Enter your Comments here..."></textarea>
+              </label>
+        </fieldset>
+        <input type="submit" value="Submit" />
+    </form>
+    
+    
+</body>
+</html>
