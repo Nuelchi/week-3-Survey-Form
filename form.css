@@ -54,9 +54,6 @@ h1 {
     padding: 2rem 0;
     border-bottom: 3px solid #3b3b4f;
   }
-  .item{
-    background-color: rgb(205, 206, 206);
-  }
   .inline {
     width: unset;
     margin: 0 0.5em 0 0;
