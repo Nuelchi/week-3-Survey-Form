@@ -50,6 +50,9 @@ h1 {
     background-color: #693fac;
     border-color: rgb(14, 22, 17);
     min-width: 300px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
   }
   fieldset {
     border: none;
@@ -64,4 +67,10 @@ h1 {
   .item{
     background-color: rgb(211, 173, 124);
     opacity: .9;
+  }
+  .button:hover{
+background-color: blue;
+color: white;
+border: black;
+border-radius: 10px;
   }
