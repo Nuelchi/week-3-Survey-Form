@@ -74,7 +74,7 @@ color: white;
 border: black;
 border-radius: 10px;
   }
-  @media all and (max-width: 400px) {
+  @media all and (max-width: 560px) {
     input[type="submit"] {
       width: 10%;
       height: 1.3rem;
