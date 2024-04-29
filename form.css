@@ -3,7 +3,7 @@ body {
     height: 100vh;
     margin: 8;
     background-image: url(background.jpg/new\ jpeg\ image.jpg);
-    background-color: no-repeat;
+    background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
@@ -65,8 +65,8 @@ h1 {
     vertical-align: middle;
   }
   .item{
-    background-color: rgb(211, 173, 124);
-    opacity: .9;
+    background-color: rgba(211, 173, 124, 0.753);
+  
   }
   .button:hover{
 background-color: blue;
